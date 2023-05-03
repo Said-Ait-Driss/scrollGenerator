@@ -59,4 +59,4 @@ async function scrollOverIndex(options = { client: null, index: '', query: {}, s
     } else return
 }
 
-export default scrollOverIndex
+modules.exports = scrollOverIndex
