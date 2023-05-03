@@ -1,6 +1,6 @@
 {
     "name": "scrollgenerator",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "is lite and quick set up package to scroll over elastic search index built using built in node js generator",
     "main": "index.js",
     "scripts": {
