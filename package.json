@@ -21,6 +21,10 @@
       "js"
     ],
     "author": "said ait driss",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Said-Ait-Driss/scrollGenerator"
+    },
     "license": "ISC"
   }
   
