@@ -9,7 +9,7 @@
  ```
     - import scrollOverIndex :
  ```js
-    import scrollOverIndex from '@saidaitdriss/scrollOverIndex'
+    import scrollOverIndex from 'scrollgenerator'
  ```
 
     - write your optional options parameter

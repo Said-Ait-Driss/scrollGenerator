@@ -1,7 +1,7 @@
 {
     "name": "scrollgenerator",
-    "version": "1.0.0",
-    "description": "scroll over elastic search index using generator",
+    "version": "1.0.1",
+    "description": "is lite and quick set up package to scroll over elastic search index built using built in node js generator",
     "main": "index.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,8 +23,12 @@
     "author": "said ait driss",
     "repository": {
       "type": "git",
-      "url": "https://github.com/Said-Ait-Driss/scrollGenerator"
+      "url": "https://github.com/Said-Ait-Driss/scrollGenerator.git"
     },
+    "bugs": {
+      "url": "https://github.com/Said-Ait-Driss/scrollGenerator/issues"
+    },
+    "homepage": "https://github.com/Said-Ait-Driss/scrollGenerator#readme",
     "license": "ISC"
   }
   
