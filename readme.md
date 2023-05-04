@@ -16,7 +16,7 @@
  ```js
 let options = {
     client: client,
-    index: 'new_artists_matches',
+    index: 'my_index',
     query: {
         "match_all": {}
     },
@@ -29,7 +29,7 @@ let options = {
  ```js
  async function main() {
     await scrollOverIndex(options, scrollRun)
-    console.log('scroll done : ', data.length)
+    console.log('scrolling over index done :)')
   }
 
   main()
@@ -39,7 +39,7 @@ let options = {
  ```js
     async function scrollRun(result) {
         for (let item of result.hits.hits) {
-            console.log(`data length : ${data.length} || ${result.hits.total.value}`)
+            console.log(`data length :|| ${result.hits.total.value}`)
             console.log(item);
         }
         return
